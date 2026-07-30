@@ -1,8 +1,23 @@
 aid: minerva-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minerva-labs.png
 name: Minerva Labs
-description: 'Minerva Labs is a company surfaced as a portfolio company of amplify-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Minerva Labs was an Israeli endpoint-security company known for its anti-evasion and
+  ransomware-prevention technology, surfaced in the API Evangelist network as a portfolio company of
+  amplify-partners. It was acquired by Rapid7 in 2023; as of a 2026-07-20 probe the minerva-labs.com
+  domain issues a 301 redirect to www.rapid7.com and operates no standalone developer portal, docs,
+  or API surface. No developer/docs/api subdomains resolve and no APIs.json artifacts are enrichable
+  from this defunct property. Sector: cybersecurity.'
 url: https://raw.githubusercontent.com/api-evangelist/minerva-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: acquired
+x-acquired-by: rapid7
+x-domain-redirects-to: https://www.rapid7.com/
 tags:
 - Company
 - Cybersecurity
+- Endpoint Security
+- Anti-Evasion
+- Ransomware Prevention
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://minerva-labs.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
