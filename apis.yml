@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://minerva-labs.com', status: 301, note: 'declared website redirects to https://www.rapid7.com/ — a different registrable domain (minerva-labs.com -> rapid7.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minerva-labs.png
 name: Minerva Labs
 description: 'Minerva Labs was an Israeli endpoint-security company known for its anti-evasion and
